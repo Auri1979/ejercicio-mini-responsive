@@ -1,0 +1,2 @@
+const url = (window.location.href.split('/')[window.location.href.split('/').length - 1]).split('?')[1];
+document.getElementById('sample').src = url == 'd' ? '../assets/img/d.gif' : '../assets/img/' + url + '.png';

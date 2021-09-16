@@ -1,0 +1,28 @@
+#register{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 350px;  
+}
+#register h1{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#register form{
+    background-color:white;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+#register form label::before{
+    margin:10px;
+    content: '\A'; 
+    white-space: pre;
+}
+#register form input{
+    float:right;
+    border:0;
+    border-bottom: solid;
+}
